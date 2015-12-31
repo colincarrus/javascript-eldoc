@@ -13,12 +13,12 @@ Copyright (C) [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/We
 
 if not installed from package manager then add the following in the your .emacs:
   
-`; if you have not already
-(let ((default-directory  "~/.emacs.d/lisp/"))
-  (normal-top-level-add-subdirs-to-load-path))
-(load-library "javascript-eldoc")
-(require 'javascript-eldoc)
-(add-hook 'js-mode-hook 'turn-on-javascript-eldoc)`
+`; if you have not already  
+(let ((default-directory  "~/.emacs.d/lisp/"))  
+  (normal-top-level-add-subdirs-to-load-path))  
+(load-library "javascript-eldoc")  
+(require 'javascript-eldoc)  
+(add-hook 'js-mode-hook 'turn-on-javascript-eldoc)`  
   
   
 ## License for Code  
