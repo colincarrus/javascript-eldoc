@@ -3,23 +3,26 @@ eldoc-mode plugin for Javascript
   
 Docs are from [MDN JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
   
+## Usage  
+  
+if not installed from package manager then add the following in the your .emacs:
+  
+```elisp
+; if you have not already  
+(let ((default-directory  "~/.emacs.d/lisp/"))  
+  (normal-top-level-add-subdirs-to-load-path))  
+  
+(load-library "javascript-eldoc")  
+(require 'javascript-eldoc)  
+
+(add-hook 'js-mode-hook 'turn-on-javascript-eldoc)
+```    
+  
 ## License for DOC  
   
 Licensed under the Creative Commons Attribution-ShareAlike license (CC-BY-SA), v2.5 or any later version.  
   
 Copyright (C) [Mozilla Contributors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)  
-
-## Usage
-
-if not installed from package manager then add the following in the your .emacs:
-  
-`; if you have not already  
-(let ((default-directory  "~/.emacs.d/lisp/"))  
-  (normal-top-level-add-subdirs-to-load-path))  
-(load-library "javascript-eldoc")  
-(require 'javascript-eldoc)  
-(add-hook 'js-mode-hook 'turn-on-javascript-eldoc)`  
-  
   
 ## License for Code  
   
