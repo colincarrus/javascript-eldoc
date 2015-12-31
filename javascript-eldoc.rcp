@@ -1,0 +1,6 @@
+(:name javascript-eldoc
+       :website "https://github.com/colincarrus/javascript-eldoc"
+       :description "eldoc plugin for JavaScript"
+       :type github
+       :pkgname "colincarrus/javascript-eldoc"
+       :features javascript-eldoc)
